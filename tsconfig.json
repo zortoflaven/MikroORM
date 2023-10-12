@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    // Needed for project references.
+    "composite": true,
+    "incremental": true,
+    "declaration": true,
+    "declarationMap": true,
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./build",
+    "rootDir": "./",
+    "strict": false,
+    "resolveJsonModule": true,
+    "noFallthroughCasesInSwitch": true,
+    //"noImplicitReturns": true,
+    //"noPropertyAccessFromIndexSignature": true,
+    //"noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    //"noUnusedParameters": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    // Needed for flatmap function
+    "lib": ["es2019"],
+    "tsBuildInfoFile": "../build/server.tsbuildinfo",
+  },
+  "exclude": ["build", "node_modules"],
+}

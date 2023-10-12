@@ -1,0 +1,30 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "^16.*",
+    "npm": "^8.*"
+  },
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "author": "",
+  "dependencies": {
+    "@mikro-orm/core": "^5.5.3",
+    "@mikro-orm/migrations": "^5.5.3",
+    "@mikro-orm/mysql": "^5.5.3",
+    "@mikro-orm/sql-highlighter": "^1.0.1",
+    "mysql2": "^3.1.2",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/mysql": "^2.15.19",
+    "typescript": "^5.0.2"
+  },
+  "mikro-orm": {
+    "useTsNode": true
+  }
+}
